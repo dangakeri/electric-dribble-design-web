@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+    max-width: 130rem;
+}
+.header{
+    padding: 3.2rem;
+    background-image: url('/img/image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.booking{
+    font-size: 1.6rem;
+}
+.main-nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 3.2rem;
+    list-style: none;   
+}
+.main-nav-link{
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.main-nav-link:link,
+.main-nav-link:visited,
+.main-nav-link::before {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.3s;
+}
+.btn--full:link,
+.btn--full:visited {
+    background-color: #ffd60a;
+    color: black;
+}
+.quote{
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+.btn--full:hover,
+.btn--full:active {
+    background-color: #ffd60a;
+}
+.heading-primary{
+    font-size: 3.2rem; 
+    line-height: 1.6;
+    padding-top: 5.6rem;
+    text-transform: uppercase;
+    color: #ffd60a;
+}
+.description{
+    padding-top: 3.2rem;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    padding-bottom: 4.8rem;
+}
+.section-featured{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.6rem 0;
+}
+.featured-img{
+    width: 5rem;
+    height: 5rem;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+/*  */
+.section-ads{
+    padding: 4.8rem;
+    background-color: #d8c99b;
+}
+.ads-title{
+    text-align: center;
+    padding-bottom: 4.8rem;
+    font-size: 3.2rem;
+}
+.ads-img-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem 5rem;
+}
+.ask-about{
+    background-image: url('/img/image2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 1.6rem;
+}
+.title-secondary{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: yellow;
+}
+.description-one{
+    color: #fff;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+.free-service{
+    background-image: url('/img/image3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 1.6rem;
+}
+.response-time{
+    background-image: url('/img/image4.jpg');
+    background-size: contain;
+    padding: 1.6rem;
+}
