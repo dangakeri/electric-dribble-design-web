@@ -365,3 +365,87 @@ textarea{
 .btn--send:active {
   background-color: #ffd60a;
 }
+.section-testimonial{
+  margin: 4.8rem;
+}
+.dark{
+color: #000;
+text-align: center;
+margin-bottom: 4.8rem;
+}
+.testimonial{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  /* gap: 3.2rem; */
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+.testimonial-content{
+  background-color: #f0ead9;
+  position: relative;
+}
+.icon-testimonial{
+ 
+  background-color: #f0ead9;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: .5rem;
+}
+.testimonial-text{
+  font-size: 1.6rem;
+  line-height: 1.6;
+  padding: 5.6rem 5.6rem 1.6rem 5.6rem;
+}
+.testimonial-name{
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+.testimonial-title{
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 1.6rem;
+  text-align: center;
+}
+.avator{
+  content: '';
+  background-image: url('/img/image1.jpg');
+  height: 5rem;
+  width: 5rem;
+  background-size: contain;
+  background-position: top;
+ 
+  border-radius: 50%;
+  position: absolute;
+  top: -4.5rem;
+  left: 50%;
+  /* right: 50%; */
+  transform: translate(-50%,50%);
+}
+.footer{
+  margin: 4.8rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.footer-item-title{
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 1.6rem 0;
+}
+.footer-item-list{
+  list-style: none;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.title-footer{
+  padding-top: 3.2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #000;
+}
